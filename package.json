@@ -1,0 +1,23 @@
+{
+    "name": "x-muter",
+    "version": "1.0.0",
+    "description": "This library empowers you to surgically modify XML files.",
+    "main": "index.ts",
+    "scripts": {
+        "dev": "nodemon  src/index.ts",
+        "build": "sucrase ./src -d ./dist --transform typescript,imports"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "sax": "^1.3.0"
+    },
+    "devDependencies": {
+        "@types/sax": "^1.2.7",
+        "nodemon": "^3.1.0",
+        "sucrase": "^3.35.0",
+        "typescript": "^5.4.2"
+    }
+}

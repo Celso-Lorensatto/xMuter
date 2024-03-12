@@ -1,0 +1,82 @@
+
+<biblioteca nome="Biblioteca de Teste" versao="1.0">
+    <livros>
+        <livro id="1" genero="Ficção Científica" titulo="O Guia do Mochileiro das Galáxias" autor="Douglas Adams">
+            <anoPublicacao>1979</anoPublicacao>
+            <editora>Editora Sextante</editora>
+            <numeroPaginas>240</numeroPaginas>
+            <sinopse>
+                Uma comédia espacial hilária e irreverente que acompanha as aventuras de Arthur
+                Dent, um inglês azarado, após a destruição da Terra.
+            </sinopse>
+            <avaliacao media="4.5" totalVotos="100">
+                <comentario autor="João Silva">Livro divertidíssimo e cheio de reflexões
+                    inteligentes sobre a vida e o universo!</comentario>
+                <comentario autor="Maria Oliveira">Uma leitura leve e divertida que te prende do
+                    início ao fim.</comentario>
+            </avaliacao>
+            <newData>newData 1</newData>
+        </livro>
+        <livro id="2" genero="Fantasia" titulo="O Senhor dos Anéis: A Sociedade do Anel" autor="J. R. R. Tolkien">
+            <anoPublicacao>1954</anoPublicacao>
+            <editora>newValue</editora>
+            <numeroPaginas>480</numeroPaginas>
+            <sinopse>
+                Uma saga épica que acompanha a jornada de Frodo Bolseiro e seus companheiros para
+                destruir o Um Anel e salvar a Terra-média.
+            </sinopse>
+            <avaliacao media="5" totalVotos="200">
+                <comentario autor="Pedro Souza">Uma obra-prima da literatura fantástica, rica em
+                    detalhes e com personagens memoráveis.</comentario>
+                <comentario autor="Ana Costa">Um livro que te transporta para outro mundo e te faz
+                    sentir parte da aventura.</comentario>
+            </avaliacao>
+            <newData>newData 2</newData>
+        </livro>
+        <livro id="3" genero="Romance" titulo="Orgulho e Preconceito" autora="Jane Austen">
+            <anoPublicacao>1813</anoPublicacao>
+            <editora>Penguin Classics</editora>
+            <numeroPaginas>320</numeroPaginas>
+            <sinopse>
+                Uma história de amor clássica e atemporal que acompanha a relação entre Elizabeth
+                Bennet e Fitzwilliam Darcy.
+            </sinopse>
+            <avaliacao media="4.8" totalVotos="50">
+                <comentario autor="Bruno Santos">Um romance leve e divertido, com personagens
+                    cativantes e um retrato fiel da sociedade da época.</comentario>
+                <comentario autor="Camila Andrade">Uma leitura que te faz refletir sobre o amor, o
+                    orgulho e o preconceito.</comentario>
+            </avaliacao>
+            <newData>newData 3</newData>
+        </livro>
+    </livros>
+    <oldAutores>
+        <autor id="1" nome="Douglas Adams" nacionalidade="Britânico">
+            <dataNascimento>1952-03-11</dataNascimento>
+            <dataFalecimento>2001-05-11</dataFalecimento>
+            <biografia>
+                Escritor britânico conhecido por seu humor e inteligência, autor da série "O Guia do
+                Mochileiro das Galáxias".
+            </biografia>
+        </autor>
+        <autor id="2" nome="J. R. R. Tolkien" nacionalidade="Britânico">
+            <dataNascimento>1892-01-03</dataNascimento>
+            <dataFalecimento>1973-09-02</dataFalecimento>
+            <biografia>
+                Escritor e filólogo britânico, autor da trilogia "O Senhor dos Anéis" e outras obras
+                de fantasia.
+            </biografia>
+        </autor>
+        <autor id="3" nome="Jane Austen" nacionalidade="Britânica">
+            <dataNascimento>1775-12-16</dataNascimento>
+            <dataFalecimento>1817-07-18</dataFalecimento>
+            <biografia>
+                Escritora britânica conhecida por seus romances de época, como "Orgulho e
+                Preconceito" e "Emma".
+            </biografia>
+        </autor>
+    </oldAutores>
+    <tagAfterClose>
+        <subTag>testValue</subTag>
+    </tagAfterClose>
+</biblioteca>
